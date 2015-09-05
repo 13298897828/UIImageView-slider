@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootView.h
 //  lesson_06_
 //
 //  Created by 张天琦 on 15/9/5.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface RootView : UIView
+@property (nonatomic,strong)UIImageView * imageView;
+@property (nonatomic,strong) UISlider * slider;
 @end
-
